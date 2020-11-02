@@ -20,7 +20,7 @@ public class Korpa {
     }
 
     public boolean dodajArtikl(Artikl a) {
-        if(trenutnaVelicina >= max){
+        if(trenutnaVelicina < max){
             artikli[trenutnaVelicina] = new Artikl(a);
             trenutnaVelicina = trenutnaVelicina + 1;
             return true;
