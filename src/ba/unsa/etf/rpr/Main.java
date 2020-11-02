@@ -47,7 +47,7 @@ public class Main {
 //      artikl se vraca u supermarket. Cilj je implementirati program tako da se transakcije izmedju korpe i supermarketa
 //      rjesavaju preko koda. Kupcu je potrebno omoguciti opciju da se prekine program, odnosno da odustane od kupovine,
 //      ili da ide na checkout gdje se obracunava potpuni iznos. Placanje se vrsi unosom pri cemu se validira da li je
-//      unesena negativna, odnosno dovoljna suma novca.
+//      unesena negativna, odnosno dovoljna suma novca.master
 
         unosArtikalaUMarket();
         for(;;){
