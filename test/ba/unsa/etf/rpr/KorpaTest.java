@@ -27,6 +27,16 @@ class KorpaTest {
         artikl = korpa.izbaciArtiklSaKodom("1");
 
         assertNotNull(artikl);
+        //assertNull(korpa.getArtikli().0);
+    }
+
+    @Test
+    public void testDodavanjaArtiklaSaPrekoracenjem(){
+        korpa = new Korpa();
+        for(int i=0; i<50; i++){
+            korpa.dodajArtikl(new Artikl("Auto", 10000, ("Golf"+String.valueOf(i+1))));
+        }
+        assertFalse(korpa.dodajArtikl(artikl));
     }
 
     @Test
