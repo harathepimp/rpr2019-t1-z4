@@ -30,7 +30,7 @@ class KorpaTest {
     }
 
     @Test
-    public void testOdredjivanjaCijene(){
+    public void testOdredjivanjaCijeneIDodavanjaArtikla(){
         korpa = new Korpa();
         korpa.dodajArtikl(new Artikl("auto", 123, "1"));
         korpa.dodajArtikl(new Artikl("auto", 123, "2"));
